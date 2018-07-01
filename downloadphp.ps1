@@ -1,3 +1,6 @@
+# THANKS to SteamDB and its SalienCheat script.
+# https://github.com/SteamDatabase/SalienCheat
+
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $workingdir = (Get-Location).Path
 $arch = (Get-WmiObject win32_operatingsystem | select osarchitecture).osarchitecture.Substring(0, 2).replace('32', '86')
