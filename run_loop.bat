@@ -16,5 +16,6 @@ if not exist php\php.exe (
 	goto installphp
 )
 
+:start
 php\php.exe -f mediadl.php
-pause
+goto start
